@@ -107,3 +107,6 @@ https://github.com/t0g3pii/slp_faq/blob/master/DiscordFAQ0.0.1.txt
 
 **Q: I would like to add the one or other question!**
 A: Add them to the List which i posted above.
+
+**Q: Add your Question here**
+A: Add your Answer here 
