@@ -108,7 +108,7 @@ A: Here you have it: https://discord.gg/PUEmfV4
 
 **Q: I have found a spelling mistake.**
 A: Sorry, my Native Language isn't English but you're able to help me with correcting them under this Link:
-https://github.com/t0g3pii/slp_faq/blob/master/DiscordFAQ0.0.1.txt
+https://github.com/t0g3pii/slp_faq/
 
 **Q: I would like to add the one or other question!**
 A: Add them to the List which i posted above.
