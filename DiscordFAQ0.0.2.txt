@@ -1,114 +1,114 @@
-**Q: What is ldn_mitm? How do i use it? **
-A: ldn_mitm is a sysmodule for CFW Users which prevents to use the normal Local Multiplayer Mode. Instead of that were now able to use this Mode as a "Online" Multiplayer!
-Some Outdated but still good Infos can find here about ldn_mitm and SLP: https://gbatemp.net/threads/ldn_mitm-play-local-wireless-supported-games-online.525512/
+**Q: What is ldn_mitm? How do I use it?**
+A: ldn_mitm is a sysmodule for CFW Users which prevents the use of the normal Local Multiplayer mode. Instead of that we're now able to use this mode as an "online" multiplayer!
+Some outdated but still good infos can find here about ldn_mitm and SLP: https://gbatemp.net/threads/ldn_mitm-play-local-wireless-supported-games-online.525512/.
 
-**Q: What is SLP? (Switch-Lan-Play)? **
+**Q: What is SLP? (Switch-Lan-Play)?**
 A: The release of switch-lan-play opened doors previously closed, allowing us to play a select list of games online regardless of bans and subscriptions.
 
-**Q: Do i need Nintendo Online or are you from Nintendo?**
+**Q: Do I need Nintendo Switch Online or are you from Nintendo?**
 A: Short Answer: No.
-Long Answer: No, the only thing you need is to follow the Instructions under this Message and youre ready to go.
-You are banned and still want to play certain Games with your Friends? You're more than Welcome here. 
+Long Answer: No, the only thing you need is to follow the Instructions under this message and you're ready to go.
+You are banned and still want to play certain games with your friends? You're more than welcome here. 
 
-**Q: What is the difference between your SLP and the Real Online Mode?**
-A: For the Real Online Mode you would need a Legit Switch that is currently not banned and Unmodified (to not get banned). It uses the Official Nintendo Servers to Communicate with each other.
-We're using our own programmed Server Software by <@!379967147167842304> in connection with the sysmodule ldn_mitm which allows us to let OFW/CFW/unbanned/banned Players to play together on the Servers.
-The Difference is now that were not using the Normal Online Mode, were "ab"using the Local Multiplayer Feature which allows us to connect to the Selfmade Servers so you can enjoy Playing. 
-And this Time with Really the Entire World. ;)
+**Q: What is the difference between your SLP and the real online mode?**
+A: For the real online mode you would need a legit Switch that is currently not banned and unmodified (to not get banned). It uses the official Nintendo servers to communicate with other Switches.
+We're using our own programmed server software by <@!379967147167842304> in connection with the sysmodule ldn_mitm which allows us to let OFW/CFW/unbanned/banned players play together on these servers.
+The difference is now that we're not using the normal online mode, we're "ab"using the Local Multiplayer feature which allows us to connect to the selfmade servers so you can enjoy playing. 
+But this time with the entire world. ;)
 
-**Q: I am new to this and dont know how to use all this Stuff**
+**Q: I am new to this and don't know how to use all this Stuff.**
 A: Follow this Tutorial: http://www.lan-play.com/install
-If you have a Custom Firmware like SXOS or Atmosphere, you need to enable some Options or add some Files. Just ask kindly under #help or follow this Tutorial:
-https://gbatemp.net/threads/zero-to-smashing-local-wireless-online-ldn_mitm-guide.526228/ **(Not Updated!)**
+If you have a Custom Firmware like SX OS or Atmosphere, you need to enable some options or add some files. Just ask kindly under #help or follow this tutorial:
+https://gbatemp.net/threads/zero-to-smashing-local-wireless-online-ldn_mitm-guide.526228/ **(Not Updated!).**
 
-**Q: Where do i find the Server List?**
-A: You can find the Server List when you type ",list" under #bot-commands or under the Website http://lan-play.com 
+**Q: Where do I find the Server List?**
+A: You can find the Server List when you type ",list" under #bot-commands or at the website http://lan-play.com.
 
-**Q: Which Settings do i need to set for my Switch?**
-A: You can find the needed Settings under http://lan-play.com/install 
+**Q: Which Settings do I need to set on my Switch?**
+A: You can find the needed Settings under http://lan-play.com/install.
 
-**Q: Which Games are Currently Supporter?**
-A: You can find the currently Supported Games under http://lan-play.com/games , there are probably some other Games which are not tested yet.
+**Q: Which games are currently supported?**
+A: You can find the currently supported games under http://lan-play.com/games, there are probably some other games which are not tested yet.
 
-**Q: I have found a Game which is Supported!**
-A: Please Report it with enough Informations either to <@!151683228128903168> or to <@!682334735158345907>
-Needed Informations: 
-```- Which Server have been used for Testing?
-- Which Internet Setting have been used for Testing?
-- Did you set a Custom MTU/PMTU for the Game? If yes, which and is it working without?
+**Q: I have found a game which is supported!**
+A: Please report it with enough information either to <@!151683228128903168> or to <@!682334735158345907>.
+Needed information: 
+```- Which servers have been used for testing?
+- Which internet settings have been used for testing?
+- Did you set a custom MTU/PMTU for the game? If yes, which, and is it working without?
 - Have you tested it with CFW or OFW?```
-**Q: My Client tells me only "open XY fail" **
-A: Windows: Start your Client with Administrator Right.
-Linux/MacOS: Start your Client with Sudo. 
+**Q: My Client only tells me "open XY fail" **
+A: Windows: Start your client as administrator.
+Linux/MacOS: Start your client with sudo. 
 Command should look like this: ``.sudo /lan-play`` or ``sudo ./lan-play``
-***It can happen that one is ``[DEBUG]: open XY ok`` and the rest is failed, this is still ok and should work normaly.***
+***It can happen that one is ``[DEBUG]: open XY ok`` and the rest fails, this is still okay and should work normally.***
 
 **Q: How do you run the client on a Raspberry Pi?**
-There is no prebuilt arm build of the client, you can however build it from source
-Use this guide by @Kutaro_Kazuki#8829 to build it on your Pi. 
-https://drive.google.com/file/d/1A_4o8HCAfDBFsePcGL3utG-LfzMUovcx/view?usp=sharing
+There is no prebuilt arm build of the client, you can however build it from source.
+Use this guide by @Kutaro_Kazuki#8829 to build it on your Pi:
+https://drive.google.com/file/d/1A_4o8HCAfDBFsePcGL3utG-LfzMUovcx/view?usp=sharing.
 
-**Q: How do i set my PMTU for ACNH?**
+**Q: How do I set my PMTU for ACNH?**
 A: Windows GUI Version: 
-- First Step. https://image.prntscr.com/image/YG43dbubTp6DOkEgefxiLw.png 
-- Second Step. https://image.prntscr.com/image/YG43dbubTp6DOkEgefxiLw.png 
+- First Step: https://image.prntscr.com/image/YG43dbubTp6DOkEgefxiLw.png 
+- Second Step: https://image.prntscr.com/image/YG43dbubTp6DOkEgefxiLw.png 
 Windows CMD: ``lan-play-win64.exe --pmtu 500`` 
 Linux/MacOS: ``.sudo /lan-play --pmtu 500`` or ``sudo ./lan-play --pmtu 500``
 
-**Q: I made my own Server, how can i add it to the Serverlist?**
-A: If you want to show to Server on the lan-play.com Website you need to edit this File https://github.com/GreatWizard/lan-play-status/blob/master/public/data/servers.json or ask kindly the Owner of the Site <@!151683228128903168> .
-If you want it to show up under the ",list" Command you need to ask <@!682334735158345907> .
+**Q: I made my own Server, how can I add it to the Server List?**
+A: If you want to show the server on the lan-play.com website you need to edit this file: https://github.com/GreatWizard/lan-play-status/blob/master/public/data/servers.json, or kindly ask the owner of the site <@!151683228128903168>.
+If you want it to show up under the ",list" command you need to ask <@!682334735158345907>.
 
-**Q: How do i host my own Server?**
-A: First of all you should overthink why you want to host your own Server. There are already a ton of Servers.
-If you want one because there is no Reachable in your near, you can guarantee a stable Internet Connection and a stable Uptime then you should take a look under #public-servers
+**Q: How do I host my own Server?**
+A: First of all you should overthink why you want to host your own server. There are already a ton of servers.
+If you want one because there is no reachable one in your area, you can guarantee a stable internet connection and a stable uptime then you should take a look under #public-servers.
 
 **Q: (Windows Client) I'm getting a [DEBUG]: 1wip-> onClose error**
-A: This is not an Error. When your Switch connects to the Windows Client it should look like this: https://image.prntscr.com/image/8peVfoy9QpiHkwZa2_JizA.png
+A: This is not an error. When your Switch connects to the Windows Client it should look like this: https://image.prntscr.com/image/8peVfoy9QpiHkwZa2_JizA.png.
 
 **Q: (Linux/MacOS?) Im getting a writeCallback -125 instead of -4081!**
-A: This is not an Error. 
+A: This is not an Error.
 
-**Q: My Switch can't connect to the WiFi because of no Internet!**
-A: Shutdown your Switch, restart the Client (and maybe choose another Server). 
-If the Client is ready youre able to Start your Switch again and it should automaticly connect to the Internet.
+**Q: My Switch can't connect to the Wi-Fi because of no internet!**
+A: Shut down your Switch, restart the client (and maybe choose another server). 
+If the client is ready you're able to start your Switch again and it should automatically connect to the internet.
 
 **Q: Can OFW and CFW Play together?**
-A: Only for certain Games which you will find in the List mentioned above.
+A: Only for certain games which you will find in the list mentioned above.
 
-**Q: And what about ACNH with OFW/CFW?**
-A: Look into the List but the Short Answer for the Lazy Guys: No. Currently it is not Possible.
+**Q: And what about ACNH with OFW?**
+A: Look at the list, but the short answer for the lazy guys: No. Currently it is not possible.
 
-**Q: Why can't i find any Players in Game AB on Server XY?**
-A: The Servers mentioned in the List are used for all of the games that are mentioned there.
-Either the Players there are in Idle, theyre playing another Game or they just dont use the Lan-Play currently.
-Please ask kindly under #matchmaking if any Player is currently hosting to Game on a Server.
-You'll find a List of Available Games under #game-list
+**Q: Why can't I find any players in game AB on server XY?**
+A: The servers mentioned in the list are used for all of the games that are mentioned there.
+Either the players there are in idle, they're playing another game or they just don't use Lan-Play currently.
+Please ask kindly under #matchmaking if any player is currently hosting a game on a Server.
+You'll find a list of available games under #game-list.
 
-**Q: Im only getting Communication Errors when Opening the Gates or Joining other Islands :( **
-A: Check your Internet Settings if you have set MTU 1500 and PMTU 500.
-Restart your Switch and try to open the Gates again.
-Check if youre on the Same Version with your Mate. The Official Current Update is ``ACNH 1.1.2a``
+**Q: Im only getting communication errors when opening the gates or joining other islands :( **
+A: Check your internet settings if you have set the MTU to 1500 and PMTU to 500.
+Restart your Switch and try to open the gates again.
+Check if youre on the same version with your mate. The official current update is ``ACNH 1.1.2a``.
 
-**Q: I downloaded my client from lan-play.com for macos/linux and it is giving me "sudo ./lan-play-version" but it returned "command not found"**
+**Q: I downloaded my client from lan-play.com for macos/linux and it is giving me "sudo ./lan-play-version" but it returned "command not found".**
 A: You need to change the permission to 755 ``sudo chmod 755 {file name}``
 
 **Q: (CFW) Will this work on my banned switch?**
-A: Yes, since you're not connecting to the Nintendo servers, yes it will still work.
+A: Yes, since you're not connecting to the Nintendo servers, it will still work.
 
-**Q: Local Wireless was working fine before but I'm getting and error when I try to use local wireless mode**
-A: Well its still the early stages, and the kip is quite buggy... 
-a simple restart of the switch should fix it. (When in doubt, restart everything!)
+**Q: Local Wireless was working fine before but I'm getting an error when I try to use Local Wireless mode.**
+A: Well, it's still in its early stages, and the kip is quite buggy... 
+A simple restart of the Switch should fix it. (When in doubt, restart everything!)
 
-**Q: Im Using the --fake-internet parameter on Linux/MacOS and i can't connect to the Wifi now**
-A: Remove the parameter, it is currently not stable working on Linux/MacOS
+**Q: Im Using the --fake-internet parameter on Linux/MacOS and I can't connect to the Wi-Fi now.**
+A: Remove the parameter, it is currently not stable on Linux/MacOS.
 
-**Q: I would like to Invite my Friends on the Discord here, do you have an Invite Link for me?**
-A: Here you have it: https://discord.gg/PUEmfV4
+**Q: I would like to invite my friends to the discord here, do you have an invite link for me?**
+A: Here it is: https://discord.gg/PUEmfV4
 
 **Q: I have found a spelling mistake.**
-A: Sorry, my Native Language isn't English but you're able to help me with correcting them under this Link:
-https://github.com/t0g3pii/slp_faq/
+A: Sorry, my native language isn't English but you're able to help me with correcting them under this link:
+https://github.com/t0g3pii/slp_faq/.
 
 **Q: I would like to add the one or other question!**
-A: Add them to the List which i posted above.
+A: Add them to the list which I posted above.
