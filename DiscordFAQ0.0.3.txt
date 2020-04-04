@@ -46,7 +46,7 @@ Command should look like this: ``.sudo /lan-play`` or ``sudo ./lan-play``
 **Q: How do you run the client on a Raspberry Pi?**
 There is no prebuilt arm build of the client, you can however build it from source
 Use this guide by @Kutaro_Kazuki#8829 to build it on your Pi. 
-https://drive.google.com/file/d/1A_4o8HCAfDBFsePcGL3utG-LfzMUovcx/view?usp=sharing
+https://drive.google.com/file/d/1B630AEuFhGUFeM14SsPbXElaALjLjSc2/view?usp=sharing
 
 **Q: How do i set my PMTU for ACNH?**
 A: Windows GUI Version: 
