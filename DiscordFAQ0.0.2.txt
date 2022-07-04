@@ -1,6 +1,6 @@
 **Q: What is ldn_mitm? How do I use it?**
-A: ldn_mitm is a sysmodule for CFW Users which prevents the use of the normal Local Multiplayer mode. Instead of that we're now able to use this mode as an "online" multiplayer!
-Some outdated but still good infos can find here about ldn_mitm and SLP: https://gbatemp.net/threads/ldn_mitm-play-local-wireless-supported-games-online.525512/.
+A: ldn_mitm is a sysmodule for CFW Users which prevents the use of the normal Local Multiplayer mode. Instead of that, we're now able to use this mode as an "online" multiplayer!
+Some outdated but still good info can find here about ldn_mitm and SLP: https://gbatemp.net/threads/ldn_mitm-play-local-wireless-supported-games-online.525512/.
 
 **Q: What is SLP? (Switch-Lan-Play)?**
 A: The release of switch-lan-play opened doors previously closed, allowing us to play a select list of games online regardless of bans and subscriptions.
@@ -22,15 +22,15 @@ If you have a Custom Firmware like SX OS or Atmosphere, you need to enable some 
 https://gbatemp.net/threads/zero-to-smashing-local-wireless-online-ldn_mitm-guide.526228/ **(Not Updated!).**
 
 **Q: Where do I find the Server List?**
-A: You can find the Server List when you type ",list" under #bot-commands or at the website http://lan-play.com.
+A: You can find the Server List when you type ", list" under #bot-commands or at the website http://lan-play.com.
 
 **Q: Which Settings do I need to set on my Switch?**
 A: You can find the needed Settings under http://lan-play.com/install.
 
 **Q: Which games are currently supported?**
-A: You can find the currently supported games under http://lan-play.com/games, there are probably some other games which are not tested yet.
+A: You can find the currently supported games under http://lan-play.com/games, there are probably some other games that are not tested yet.
 
-**Q: I have found a game which is supported!**
+**Q: I have found a game that is supported!**
 A: Please report it with enough information either to <@!151683228128903168> or to <@!682334735158345907>.
 Needed information: 
 ```- Which servers have been used for testing?
@@ -44,7 +44,7 @@ Command should look like this: ``.sudo /lan-play`` or ``sudo ./lan-play``
 ***It can happen that one is ``[DEBUG]: open XY ok`` and the rest fails, this is still okay and should work normally.***
 
 **Q: How do you run the client on a Raspberry Pi?**
-There is no prebuilt arm build of the client, you can however build it from source.
+There is no prebuilt arm build of the client, you can, however, build it from source.
 Use this guide by @Kutaro_Kazuki#8829 to build it on your Pi:
 https://drive.google.com/file/d/1A_4o8HCAfDBFsePcGL3utG-LfzMUovcx/view?usp=sharing.
 
@@ -100,8 +100,12 @@ A: Yes, since you're not connecting to the Nintendo servers, it will still work.
 A: Well, it's still in its early stages, and the kip is quite buggy... 
 A simple restart of the Switch should fix it. (When in doubt, restart everything!)
 
-**Q: Im Using the --fake-internet parameter on Linux/MacOS and I can't connect to the Wi-Fi now.**
+**Q: I am Using the --fake-internet parameter on Linux/MacOS and I can't connect to the Wi-Fi now.**
 A: Remove the parameter, it is currently not stable on Linux/MacOS.
+
+**Q: My friend does not have a hacked switch. Can we play together without any risk?**
+A: Yes, because you are not connecting to any Nintendo server, it will still work and won't have a ban risk for either of you. 
+However, only games with lan mode are supported on not-hacked consoles.
 
 **Q: I would like to invite my friends to the discord here, do you have an invite link for me?**
 A: Here it is: https://discord.gg/PUEmfV4
